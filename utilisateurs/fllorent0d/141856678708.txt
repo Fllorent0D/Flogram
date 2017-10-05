@@ -1,0 +1,1 @@
+a:4:{s:5:"titre";s:21:"Seraing de ma chambre";s:15:"petite_descript";s:11:"Superbe vue";s:15:"longue_descript";s:18:"Oulalal c'est haut";s:6:"statut";s:5:"prive";}

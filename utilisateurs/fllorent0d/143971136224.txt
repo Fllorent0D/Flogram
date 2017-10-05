@@ -1,0 +1,1 @@
+a:4:{s:5:"titre";s:5:"Bambi";s:15:"petite_descript";s:5:"Bambi";s:15:"longue_descript";s:24:"Bambi va te faire foutre";s:6:"statut";s:6:"public";}

@@ -1,0 +1,178 @@
+/* Page en général */
+body:not(.index)
+{
+	background-color: rgb(233, 234, 237);
+	padding-top: 70px;
+} 
+.checkbox-nav
+{
+  color:#fff;
+}
+
+.dropdown:hover > ul.dropdown-menu
+{
+	display:block;
+}
+.dropup:hover > ul.dropdown-menu
+{
+	display:block;
+}
+h1, h2
+{
+	margin-bottom: 30px;
+}
+.left
+{	
+	margin-left: 0px;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+/* Page recherche */
+.nopadding
+{
+  padding-top: 0px;
+  padding: 0px !important;
+}
+.spacing
+{
+  padding: 6px !important;
+}
+.nomargin
+{
+margin-bottom:0px;
+}
+img
+{
+	width: 100%; /*Fix pour bootstrap, Firefox je te déteste */
+}
+/* Page de détails */
+img.ri
+{
+  display: block;
+  max-height: 80vh;
+  min-height: 40vh;
+  width: auto;
+  height: auto;
+  max-width: 100%;  
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-viewer
+{
+  background-color: rgba(42,42,42,1);
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+
+.smallpadding
+{
+  padding-top: 51px!important;
+}
+/*Page d'accueil */
+
+.index {
+  height: 100%;
+}
+.bod {
+  color: #fff;
+  text-align: center;
+
+
+}
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  position: fixed;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inner {
+  padding: 30px;
+}
+
+.lead
+{
+  text-shadow: #000000 1px 1px 3px;
+}
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+.btn-outline:hover .fa-heart  
+{
+	transition: all .5s;
+	color: red;
+}
+
+
+.mastfoot {
+  color: #999; 
+  color: rgba(255,255,255,1);
+  text-shadow: #000000 1px 1px 3px;
+}
+.mastfoot > .day
+{
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+@media (max-width: 768px)
+{
+  .inner
+  {
+    padding-top: 70px;
+  }
+}
+
+
+@media (min-width: 768px) {
+
+  .mastfoot {
+    position: fixed;
+    bottom: 20px;
+  }
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+  .mastfoot
+  .cover-container {
+    width: 700px; 
+  }
+}
+
+@media (min-width: 992px) {
+
+  .mastfoot,
+  .cover-container {
+    width: 800px;
+  }
+}
+.nav img
+{
+	display: inline;
+	width: auto;
+	height: 25px;
+}
